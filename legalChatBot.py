@@ -99,25 +99,3 @@ with gr.Blocks() as demo:
 
 demo.launch(share=True)
 
-# Git / GitHub quick push instructions:
-# 1) From project root:
-#    cd /Users/kenny/Desktop/legal
-#    git init                      # if repo not initialized
-#    echo ".venv\n__pycache__/\n*.pyc\n*.json\n.env\nvenv/" > .gitignore
-#    git add . && git commit -m "Initial commit"
-#
-# 2) Create GitHub repo:
-#    - Option A (gh CLI): gh repo create <OWNER>/<REPO> --public --source=. --remote=origin --push
-#    - Option B (web): create a new repo on github.com, then:
-#        git remote add origin https://github.com/<OWNER>/<REPO>.git
-#        git branch -M main
-#        git push -u origin main
-#
-# 3) If using HTTPS, create a Personal Access Token (PAT) and use it when prompted (instead of password).
-#    Or set up SSH keys and use the SSH repo URL:
-#        git remote set-url origin git@github.com:<OWNER>/<REPO>.git
-#        git push -u origin main
-#
-# Security note: remove hard-coded API keys/credentials from source before pushing.
-# - Put secrets in a .env file (add .env to .gitignore), or use a secrets manager.
-# - Rotate any keys already committed to history (use git filter-repo / BFG if needed).
