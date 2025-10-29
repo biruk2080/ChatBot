@@ -9,6 +9,7 @@ Small Gradio-based chat app using Google Gemini (via langchain_google_genai) to 
 
 ## Prerequisites
 - Python 3.8+
+- Langchain 
 - A virtual environment (recommended)
 - Install dependencies (example):
   pip install -r requirements.txt
