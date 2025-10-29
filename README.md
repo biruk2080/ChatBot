@@ -4,6 +4,7 @@ Small Gradio-based chat app using Google Gemini (via langchain_google_genai) to 
 
 ## Features
 - Conversational chat with memory (in-memory session history)
+- prompt template 
 - Gradio UI for local testing
 - Loads API keys from a `.env` file
 
