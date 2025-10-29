@@ -1,0 +1,8 @@
+# ...existing ignore rules...
+.env
+*.json
+.vscode/
+__pycache__/
+*.pyc
+venv/
+.venv/
