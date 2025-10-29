@@ -49,6 +49,3 @@ GOOGLE_API_KEY=your_google_api_key_here
 - If dependencies fail, confirm package names and Python version.
 - If the model or API access errors appear, verify API keys and quota.
 
-### Git push error: "src refspec master does not match any"
-This means Git couldn't find a local branch named `master` with commits to push.
-
