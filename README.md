@@ -5,7 +5,7 @@ Small Gradio-based chat app using Google Gemini (via langchain_google_genai) to 
 ## Features
 - Conversational chat with memory (in-memory session history)
 - Immigration law Q/A in Amharic
-- Gradio UI for testing
+- Gradio UI
 - Run locally and public server via HuggingFace
 ## Future plan 
 - Add voice chat using Speach to Text (STT)
