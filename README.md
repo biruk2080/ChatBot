@@ -5,13 +5,16 @@ Small Gradio-based chat app using Google Gemini (via langchain_google_genai) to 
 ## Features
 - Conversational chat with memory (in-memory session history)
 - Immigration law Q/A in Amharic
-- Gradio UI for local testing
-- Loads API keys from a `.env` file
-
+- Gradio UI for testing
+- Run locally and public server via HuggingFace
+## Future plan 
+- Add voice chat using Speach to Text (STT)
+- add RAG piple line for the extrnal knowledge 
 ## Prerequisites
 - Python 3.8+
 - Langchain 
 - A virtual environment (recommended)
+- HuggingFace space to host the chatbot in public server 
 - Install dependencies (example):
   pip install -r requirements.txt
   (If you don't have a requirements file, install: langchain-google-genai langchain-core gradio python-dotenv)
@@ -23,7 +26,6 @@ GOOGLE_API_KEY=your_google_api_key_here
 # Optionally:
 # OPENAI_API_KEY=your_openai_api_key_here
 # GOOGLE_APPLICATION_CREDENTIALS=/full/path/to/service-account.json
-```
 
 ## Run locally
 1. Activate your virtualenv (example):
