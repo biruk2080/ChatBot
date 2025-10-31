@@ -9,7 +9,7 @@ Small Gradio-based chat app using Google Gemini (via langchain_google_genai) to 
 - Run locally and public server via HuggingFace
 ## Future plan 
 - Add voice chat using Speach to Text (STT)
-- add RAG piple line for the extrnal knowledge 
+- Add RAG piple line for the extrnal knowledge 
 ## Prerequisites
 - Python 3.8+
 - Langchain 
